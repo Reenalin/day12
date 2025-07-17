@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import Call from './router';
+import Forms from './forms';
 
 function App() {
   return (
@@ -13,6 +14,8 @@ function App() {
         <Routes>
           <Route path="/router" element={<Call />} />
         </Routes>
+
+        <Forms/>
       </div>
     </BrowserRouter>
   );
